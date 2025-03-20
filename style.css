@@ -22,6 +22,7 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     flex-direction: column;
+    align-items: center;
 }
 .anim-main {
     display: grid;
@@ -213,6 +214,7 @@ main {
 .anim-example-vid {
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
     height: 90%;
 }
