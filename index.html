@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platforma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Odtwórz Animacje</h2>
+    <main>
+        <section class="anim-main">
+            <div class="anim-item-1">
+                <div class="anim-obj-container">
+                    <img src="img/kosz.png">
+                    <div id="movableObject" class="anim-obj">
+                        <img class="anim-obj-img" src="img/piłka.png">
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="anim-item-2">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="hsl(0, 0%, 45%)"><path d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"/></svg>
+                <span></span>
+            </div>
+            <div class="anim-item-3">
+                <div>
+                    <div class="button-container">
+                        <div>
+                            <button class="anim-button">Dodaj klatkę</button><button id="play">Graj</button>
+                        </div>
+                    </div>
+                    <div class="keyframes-container">
+                        <div class="timeline-indicator"></div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="anim-example">
+            <div>
+                <p><u>Przeciągnij piłkę i ustaw kluczowe klatki</u>, aby zapisać pozycję. Dodaj kolejne i <u>kliknij „Graj”</u>, by stworzyć animację!</p>
+                <div class="anim-example-vid">
+                    <video src="img/basketball.webm" autoplay loop muted></video>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
